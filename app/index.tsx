@@ -1,11 +1,11 @@
 import React from 'react';
 import { View } from 'react-native';
-import OrbeFlutuante from '../components/OrbeFlutuante';
+import CosmicGame from '../components/CosmicGame';
 
 export default function Index() {
   return (
-    <View style={{ flex: 1 }}>
-      <OrbeFlutuante />
+    <View style={{ flex: 1, backgroundColor: '#070a13' }}>
+      <CosmicGame />
     </View>
   );
 }
